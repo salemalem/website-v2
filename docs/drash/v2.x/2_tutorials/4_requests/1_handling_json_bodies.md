@@ -71,6 +71,10 @@ const param = request.bodyParam("param_name");
    console.log(`Server running at ${server.address}.`);
    ```
 
+## Debug
+1. Debug body params
+`const param = request.bodyAll();`
+
 ## Verification
 
 1. Run your app.
